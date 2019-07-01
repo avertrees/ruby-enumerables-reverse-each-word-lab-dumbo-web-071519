@@ -1,3 +1,4 @@
 def reverse_each_word(string)
-  return string.reverse
+  arr[string.length] = string
+  puts arr
 end
