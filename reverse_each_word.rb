@@ -1,4 +1,4 @@
 def reverse_each_word(string)
-  arr[string.length] = string
+  arr = string.split(" ")
   puts arr
 end
