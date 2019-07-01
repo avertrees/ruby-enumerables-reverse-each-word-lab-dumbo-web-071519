@@ -2,6 +2,7 @@ def reverse_each_word(string)
   source_array = string.split(" ")
   new = []
   i = 0
+  source_array.each{}
   while i < source_array.length do
     word = source_array[i].split("")
     
