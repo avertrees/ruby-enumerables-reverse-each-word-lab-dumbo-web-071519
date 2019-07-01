@@ -3,7 +3,9 @@ def reverse_each_word(string)
   new = []
   i = 0
   while i < source_array.length do
-    new.push( source_array[i].each{|word| word.reverse} )
+    word = source_array[i].split("")
+    
+    new.push(word.each{|word| word.reverse} )
     i += 1
   end
   return new
