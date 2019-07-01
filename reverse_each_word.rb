@@ -5,7 +5,7 @@ def reverse_each_word(string)
   }
   
   new = source_array.collect{
-    |w| 
+    |w| w.reverse
   }
   
   return new.join(" ")
