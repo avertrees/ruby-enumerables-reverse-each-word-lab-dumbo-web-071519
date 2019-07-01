@@ -4,5 +4,9 @@ def reverse_each_word(string)
     |w| puts w.reverse  
   }
   
+  new = source_array.collect{
+    |w| 
+  }
+  
   return new.join(" ")
 end
